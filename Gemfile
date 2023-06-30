@@ -7,6 +7,9 @@ gem 'faker'
 # The Best Pagination Ruby Gem
 gem 'pagy'
 
+# Object-based searching.
+gem 'ransack'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem 'rails', '~> 7.0.6'
 
