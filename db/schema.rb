@@ -18,7 +18,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_06_30_153429) do
     t.string "name"
     t.string "email"
     t.text "byo"
-    t.boolean "available"
+    t.boolean "available", default: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
