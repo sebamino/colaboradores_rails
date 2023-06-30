@@ -3,7 +3,7 @@ class ColaboratorsController < ApplicationController
 
   # GET /colaborators or /colaborators.json
   def index
-    @colaborators = Colaborator.all
+    @pagy, @colaborators = pagy(Colaborator.all.order(name: :asc))
   end
 
   # Ruta miembro
