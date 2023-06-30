@@ -4,7 +4,7 @@ class CreateColaborators < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :email
       t.text :byo
-      t.boolean :available, default: true
+      t.boolean :available
 
       t.timestamps
     end

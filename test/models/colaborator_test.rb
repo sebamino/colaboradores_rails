@@ -6,7 +6,7 @@
 #  name       :string
 #  email      :string
 #  byo        :text
-#  available  :boolean          default(TRUE)
+#  available  :boolean
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
 #
